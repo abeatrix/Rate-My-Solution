@@ -1,10 +1,14 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  background: #0B255B;
+  color: white;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-image: url("/code.png");
+  /* opacity: 0.8; */
 }
 
 .main {
@@ -15,6 +19,15 @@
   justify-content: center;
   align-items: center;
 }
+
+.btn {
+  background: white;
+  color: #0B255B;
+  padding: 2% 5%;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
 
 .footer {
   width: 100%;
